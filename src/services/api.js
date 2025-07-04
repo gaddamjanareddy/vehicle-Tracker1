@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://vehicle-tracker-backend-qgfu.onrender.com";
 
 export const getCurrentLocation = () => axios.get(`${BASE_URL}/location`);
 export const getRouteData = () => axios.get(`${BASE_URL}/route`);
